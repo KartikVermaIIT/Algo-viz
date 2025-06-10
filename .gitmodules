@@ -1,0 +1,3 @@
+[submodule "Algo-viz"]
+	path = Algo-viz
+	url = https://github.com/KartikVermaIIT/Algo-viz.git
