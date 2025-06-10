@@ -10,4 +10,4 @@ Algorithm Visualizer – your go-to platform for exploring data structures and m
 **Server:** FastAPI
 
 ## Link to AlgoViz
-[AlgoViz on Netlify](https://657dc9298b2c28456944e054--lively-tiramisu-05fb3d.netlify.app/)
+[AlgoViz on Netlify](https://candid-gecko-7c29aa.netlify.app/)
