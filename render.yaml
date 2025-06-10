@@ -11,6 +11,12 @@ services:
     name: react-frontend
     env: static
     rootDir: .                       # frontend is at repo root
-    buildCommand: npm install && npm run build
+    buildCommand: |
+      npm install
+      npm run build
+      echo "=== ROOT DIR LISTING ==="
+      ls -la
+      echo "=== DIST DIR LISTING ==="
+      ls -la dist
     staticPublishPath: dist         # dist will be created at root
     plan: free
