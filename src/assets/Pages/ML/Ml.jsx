@@ -7,7 +7,7 @@ import { useSnapshot } from "valtio";
 import Regression from './Regression/Regression'
 import Rf from './RandomForest/Rf';
 import Dt from './Decision_Tree/Decision_tree';
-import Log_Reg from './Logistics_Reg/Log_Reg';
+import Log_Reg from './Logistics_Reg/Log_reg';
 
 function Ml() {
   const snap = useSnapshot(state)
